@@ -5,12 +5,16 @@ using tensorflow library to build Deep CNN Image Sentiment Classifier to predict
 Here are the key steps involved in building the model:
 
 
+
+
 Set up the environment:
 
 
 Install dependencies: tensorflow, opencv, matplotlib
 
 Import libraries: tensorflow, os
+
+
 
 
 Load and preprocess data:
@@ -22,6 +26,8 @@ Remove dodgy images (corrupt or not downloaded properly)
 Load the data using tensorflow.keras.preprocessing.image.ImageDataGenerator
 
 Preprocess the data by scaling it and splitting it into training, validation, and testing sets
+
+
 
 
 Build the deep neural network:
@@ -39,9 +45,13 @@ Add dense layers with ReLU activation
 Add the final output layer with sigmoid activation for binary classification
 
 
+
+
 Train the model:
 
 Train the model using model.fit
+
+
 
 
 Evaluate the model:
@@ -49,6 +59,8 @@ Evaluate the model:
 Evaluate the model on the testing data using metrics like precision, recall, and accuracy
 
 
-Save the model:
+
+
+Save the model
 
 Save the model to disk using model.save
